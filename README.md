@@ -1,1 +1,3 @@
-# MarkDown File for the project
+# Project With Python's FLASK API
+
+# NO SQL - Mongo DB 

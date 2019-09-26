@@ -6,12 +6,12 @@ app = Flask(__name__)
 def hello():
     return "Hello, World!"
 
-@app.route("/get")
+@app.route("/get", methods=[ 'GET' ])
 def getReq():
     arr = [ 4, "silly", 6,"Json"]
     return jsonify(arr)
 
-@app.route("/json")
+@app.route("/json", methods=[ 'GET' ])
 def hello1():
     return jsonify({
     'KARAN':

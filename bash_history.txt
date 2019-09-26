@@ -1,0 +1,264 @@
+    1  /usr/bin/python3 -m pip install -U pylint --user
+    2  clear
+    3  /usr/bin/python3 /home/mk/mongo.py
+    4  clear
+    5  /usr/bin/python3 /home/mk/mongo.py
+    6  clear
+    7  /usr/bin/python3 /home/mk/mongo.py
+    8  clear
+    9  /usr/bin/python3 /home/mk/mongo.py
+   10  gedit
+   11  sudo
+   12  sudo apt -get install
+   13  sudo -apt get install
+   14  sudo apt get install
+   15  sudo apt -get install
+   16  sudo apt-get install
+   17  clear
+   18  git --version
+   19  python~
+   20  python3
+   21  clear
+   22  python 
+   23  python
+   24  clear
+   25  pip
+   26  python pip
+   27  python -m pip
+   28  pip list
+   29  clear
+   30  python3 --verison
+   31  python3 --
+   32  clear
+   33  python3 --version
+   34  python3 -m pip
+   35  python3 pip
+   36  ls
+   37  clear
+   38  sudo apt-get install python3-pip
+   39  clear
+   40  pip --version
+   41  pip help
+   42  python -m pip --version
+   43  python -m pip 
+   44  pip3
+   45  pip3 --version
+   46  clear
+   47  python3
+   48  clear
+   49  python3 -m pip3
+   50  python -m pip3
+   51  python3
+   52  sudo apt-get install python3
+   53  clear
+   54  pip3
+   55  clear
+   56  pip3  install pymongo
+   57  clear
+   58  python
+   59  python3
+   60  clear
+   61  wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+   62  lsb_release -dc
+   63  ls
+   64  echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+   65  ls
+   66  sudo apt-get update
+   67  clear
+   68  sudo apt-get install -y mongodb-org
+   69  clear
+   70  sudo systemtl status mongodb
+   71  sudo systemctl status mongodb
+   72  sudo service mongod start
+   73  [initandlisten] waiting for connections on port 27017
+   74  cd /var/log/mongodb/mongod.log
+   75  ls
+   76  cd ~
+   77  ls
+   78  cd Documents/
+   79  ls
+   80  cd ..
+   81  cd Desktop/
+   82  ls
+   83  cd ..
+   84  clear
+   85  sudo systemctl status mongodb
+   86  clear
+   87  mongo
+   88  clear
+   89  sudo service mongodb stop
+   90  sudo service mongod status
+   91  sudo service mongodb stop
+   92  gedit mongo.py
+   93  cler
+   94  clear
+   95  ls
+   96  python3 mongo.py 
+   97  gedit mongo.py 
+   98  mongo
+   99  clear
+  100  sudo service mongod stop
+  101  sudo systemctl status mongodb
+  102  clear
+  103  ex it
+  104  exit
+  105  ls
+  106  ./run_upgrader.sh 
+  107  ls
+  108  cd ~
+  109  ls
+  110  clear
+  111  sudo apt-get install open-vm-tools
+  112  sudo apt-get install open-vm-tools-desktop
+  113  exit
+  114  pip install firebase-admin
+  115  pip3 install firebase-admin
+  116  clear
+  117  pip3 uninstall firebase-admin
+  118  clear
+  119  sudo pip3 install requests
+  120  clear
+  121  sudo pip3 install python-firebase
+  122  clear
+  123  python3
+  124  sudo pip3 purge  uninstall python-firebase
+  125  sudo pip3 uninstall python-firebase
+  126  clear
+  127  pip freeze
+  128  pip3 freeze
+  129  pip3 freeze | grep google
+  130  pip3 uninstall google-api-core
+  131  pip3 freeze | grep google
+  132  pip3 uninstall google-api-python-client
+  133  pip3 freeze | grep google
+  134  pip3 uninstall 
+  135  pip3 uninstall google-auth
+  136  pip3 freeze | grep google
+  137  pip3 uninstall google-auth-httplib2
+  138  pip3 freeze | grep google
+  139  pip3 uninstall google-cloud-core
+  140  pip3 freeze | grep google
+  141  pip3 uninstall google-cloud-firestore
+  142  pip3 freeze | grep google
+  143  pip3 uninstall google-cloud-storage
+  144  pip3 freeze | grep google
+  145  pip3 uninstall google-resumable-media
+  146  pip3 uninstall google-cloud-storage
+  147  pip3 freeze | grep google
+  148  pip3 uninstall googleapis-common-protos
+  149  clear
+  150  pip3 freeze | grep google
+  151  clear
+  152  sudo apt update
+  153  clear
+  154  sudo apt install mysql-server
+  155  clear
+  156  sudo systemctl status mysql
+  157  sudo systemctl status mongod
+  158  cls
+  159  clear
+  160  sudo mysql_secure_installation
+  161  clear
+  162  pip3 install django
+  163  clear
+  164  cd djangoCRUD
+  165  clear
+  166  django-admin startproject djangoCRUD
+  167  cd djangoCRUD/
+  168  ls
+  169  cd djangoCRUD/
+  170  ;s
+  171  ls
+  172  cd ..
+  173  ls
+  174  cd ..
+  175  ls
+  176  clear
+  177  cd djangoCRUD/
+  178  ls
+  179  vscode
+  180  code
+  181  clear
+  182  python
+  183  python3 manage.py startapp mysql-Django
+  184  python3 manage.py startapp DjangoMySql
+  185  history | mysql
+  186  history | grep mysql
+  187  sudo systemctl status mysql
+  188  sudo systemctl stop mysql
+  189  sudo systemctl status mysql
+  190  clear
+  191  pip3 install flask
+  192  clear
+  193  python3
+  194  clear
+  195  pip3 freeze
+  196  pip3 freeze | grep flask
+  197  pip3 freeze | grep Flask
+  198  ls
+  199  cd ..
+  200  ls
+  201  mkdir flask
+  202  cd  flask/
+  203  codeexit
+  204  code
+  205  gedit app.py
+  206  sudo apt install git
+  207  clear
+  208  ls
+  209  gedit exit
+  210  git remote add origin https://github.com/Karan-Babloo/Flask-Mongo-Docker.git
+  211  git init
+  212  git remote add origin https://github.com/Karan-Babloo/Flask-Mongo-Docker.git
+  213  git push -all origin
+  214  git push --all origin
+  215  git push -u origin master
+  216  git status
+  217  git add .
+  218  git commit -m "First Commit"
+  219  git config --global user.email "karan.m@gmx.com"
+  220  git add .
+  221  git commit -m "First Commit"
+  222  git status
+  223  git push
+  224  git push --set-upstream origin master
+  225  git checkout -b develop master
+  226  git push
+  227  git push --set-upstream origin develop
+  228  code
+  229  code .
+  230  ls
+  231  rm exit 
+  232  clear
+  233  FLASK_APP=app.py flask run
+  234  clear
+  235  git status
+  236  ls
+  237  cd __pycache__/
+  238  ls
+  239  clear
+  240  git add .
+  241  git commit -m "Initial Changes"
+  242  git push
+  243  clear
+  244  cd ..
+  245  ls
+  246  git config --global credential.helper store
+  247  git pull
+  248  git status
+  249  git add .
+  250  git status
+  251  git commit -m "Add Markdown file for the project"
+  252  git push
+  253  git branch
+  254  git status
+  255  git config --global credential.helper store
+  256  git pull
+  257  code .
+  258  git status
+  259  git add .
+  260  git commit -m "change to the md. file"
+  261  git push
+  262  ls
+  263  clear
+  264  history > bash_history.txt

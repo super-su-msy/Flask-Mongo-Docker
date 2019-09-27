@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
@@ -19,3 +19,20 @@ def hello1():
 
 if __name__ == "__main__":
     app.run()
+@app.route("/post", methods=[ 'POST' ])
+def helloPosty():
+    dataDict = request.get_json()
+    x = dataDict["x"]
+    y = dataDict["y"]
+    z=x+y
+
+    JSON = {
+        'result':x+y,
+        'compiledRes':z
+    }
+    return jsonify(JSON), 200        
+
+    # return "Hello, World!"
+
+if __name__ == "__main__":
+    app.run(debug='TRUE')

@@ -9,7 +9,7 @@ def checkdata(postedData, operation):
     if (operation == "div"):
         if "x" not in postedData or "y" not in postedData:
             return 305
-        elif "x" == 0:
+        elif postedData["y"] == 0 or postedData["x"] == 0:
             return 306
         else:
             return 200
@@ -35,14 +35,17 @@ class secondApi(Resource):
 
         statusCode = checkdata(req, "div")
         if (statusCode == 305 or statusCode == 306):
-            return "you ugly BS"
+            return jsonify({
+                'message':'Validation Failed',
+                'statuCode': statusCode
+            })
             
         x = req["x"]
         y = req["y"]
 
         response = {
             'result': x/y,
-            'succes': 'true'
+            'statusCode': statusCode
         }
         return jsonify(response)
             

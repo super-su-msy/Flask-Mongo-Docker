@@ -17,8 +17,8 @@ def hello1():
     'KARAN':
     'KEEANU'})
 
-if __name__ == "__main__":
-    app.run()
+#if __name__ == "__main__":
+#    app.run()
 @app.route("/post", methods=[ 'POST' ])
 def helloPosty():
     dataDict = request.get_json()

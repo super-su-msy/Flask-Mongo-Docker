@@ -17,8 +17,6 @@ def hello1():
     'KARAN':
     'KEEANU'})
 
-#if __name__ == "__main__":
-#    app.run()
 @app.route("/post", methods=[ 'POST' ])
 def helloPosty():
     dataDict = request.get_json()
@@ -31,8 +29,6 @@ def helloPosty():
         'compiledRes':z
     }
     return jsonify(JSON), 200        
-
-    # return "Hello, World!"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')

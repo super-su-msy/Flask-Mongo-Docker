@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request
+from flask_restful import Api, Resource
 
 app = Flask(__name__)
+api = Api(app)
 
 @app.route("/")
 def hello():
@@ -28,7 +30,24 @@ def helloPosty():
         'result':x+y,
         'compiledRes':z
     }
-    return jsonify(JSON), 200        
+    return jsonify(JSON), 200  
+
+class firstApi(Resource):
+     def post(self):
+
+        req = request.get_json()
+
+        x = req["x"]
+        y = req["y"]
+        z = x+y
+        response = {
+            'result': z,
+            'check' : " Test ",
+            'succes': 'true'
+        }
+        return jsonify(response)   
+
+api.add_resource(firstApi, "/add")   
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')

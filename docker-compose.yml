@@ -5,3 +5,7 @@ services:
     build: ./server
     ports: 
       - "5000:5000"
+    links:
+      - database
+  database:
+    build: ./database

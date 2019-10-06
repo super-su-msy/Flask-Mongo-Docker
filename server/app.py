@@ -1,11 +1,11 @@
 from flask import Flask, jsonify, request
 from flask_restful import Api, Resource
-
 from pymongo import MongoClient
+import requests, json
 
 app = Flask(__name__)
 api = Api(app)
-client = MongoClient('mongodb://database:27017')
+client = MongoClient('mongodb://localhost:27017')
 db = client.mk
 posts = db.posts
 
@@ -17,27 +17,6 @@ def hello():
 def getReq():
     arr = [ 4, "silly", 6,"Json"]
     return jsonify(arr)
-
-@app.route("/insert", methods=[ 'GET' ])
-def getMongo():
-    post_1 = {
-    'title': 'Python and MongoDB',
-    'content': 'PyMongo is fun, you guys',
-    'author': 'Scott'
-    }
-    post_2 = {
-    'title': 'Virtual Environments',
-    'content': 'Use virtual environments, you guys',
-    'author': 'Scott'
-    }
-    post_3 = {
-    'title': 'Learning Python',
-    'content': 'Learn Python, it is easy',
-    'author': 'Bill'
-    }
-    new_result = posts.insert_many([post_1, post_2, post_3])
-    print('Multiple posts: {0}'.format(new_result.inserted_ids))
-    return jsonify("successfull"), 200
 
 @app.route("/retrieve", methods=[ 'GET' ])
 def getRetreive():
@@ -69,6 +48,13 @@ def helloPosty():
         'compiledRes':z
     }
     return jsonify(JSON), 200  
+
+@app.route('/jsonplaceholder', methods=["GET"])
+def google():
+    r = requests.get('https://jsonplaceholder.typicode.com/users')
+    myschema = db["jsonplaceholder"]
+    myschema.insert_many(r.json())
+    return jsonify(r.json())
 
 class firstApi(Resource):
      def post(self):

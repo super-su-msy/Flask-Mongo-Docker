@@ -5,7 +5,7 @@ import requests, json
 
 app = Flask(__name__)
 api = Api(app)
-client = MongoClient('mongodb://localhost:27017')
+client = MongoClient('mongodb://database:27017')
 db = client.mk
 posts = db.posts
 

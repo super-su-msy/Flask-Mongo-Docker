@@ -30,12 +30,6 @@ def getRetreive():
     }
     return jsonify(resJSON)
 
-@app.route("/json", methods=[ 'GET' ])
-def hello1():
-    return jsonify({
-    'KARAN':
-    'KEEANU'})
-
 @app.route("/post", methods=[ 'POST' ])
 def helloPosty():
     dataDict = request.get_json()

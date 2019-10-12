@@ -2,10 +2,8 @@
 
 REST API using Python Flask API + MongoDB + Docker
 
-# Haven't decided on UI yet
+## Backed up Python's Flask API [https://www.flaskapi.org/]
 
-# Backed up Python's Flask API [https://www.flaskapi.org/]
+## NoSql MongoDB 
 
-# NoSql MongoDB 
-
-# Containerization using Docker & Docker-Compose
+## Containerization using Docker & Docker-Compose
